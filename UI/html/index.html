@@ -1,0 +1,61 @@
+<html>
+    <head>
+	    <link rel="stylesheet" href="style.css">
+    </head>
+	<body>
+	<div id="sirenbox">
+		<img src="../textures/day/manon.png" id="manon" style="display:none; position:absolute; left:0px; top:0; z-index:900;" />
+		<img src="../textures/od/code_L.png" id="codeL" style="display:none; position:absolute; left:0px; top:0; z-index:900;" />
+		<img src="../textures/od/code_R.png" id="codeR" style="display:none; position:absolute; left:0px; top:0; z-index:900;" />
+		<img src="../textures/guide/SAUX/AUX_A.png" id="extra_aux_a" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/SAUX/AUX_B.png" id="extra_aux_b" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/od/direction/LEFT_ALLEY.png" id="extra_left" style="display:none; position:absolute; left:0px; top:0px; z-index:900;" />
+		<img src="../textures/od/direction/RIGHT_ALLEY.png" id="extra_right" style="display:none; position:absolute; left:0px; top:0px; z-index:900;" />
+		<img src="../textures/od/direction/SAUX.png" id="extra_aux" style="display:none; position:absolute; left:0px; top:0px; z-index:900;" />
+		<img src="../textures/od/direction/PARK.png" id="extra_park" style="display:none; position:absolute; left:0px; top:0px; z-index:900;" />
+		<img src="../textures/guide/PARK/PARK_A.png" id="extra_park_a" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/PARK/PARK_B.png" id="extra_park_b" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_A.png" id="extra_right_a" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_B.png" id="extra_right_b" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_C.png" id="extra_right_c" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_D.png" id="extra_right_d" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_E.png" id="extra_right_e" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_F.png" id="extra_right_f" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_G.png" id="extra_right_g" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_H.png" id="extra_right_h" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/RIGHTALLEY/RIGHTALLEY_I.png" id="extra_right_i" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_A.png" id="extra_left_a" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_B.png" id="extra_left_b" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_C.png" id="extra_left_c" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_D.png" id="extra_left_d" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_E.png" id="extra_left_e" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_F.png" id="extra_left_f" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_G.png" id="extra_left_g" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_H.png" id="extra_left_h" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/guide/LEFTALLEY/LEFTALLEY_I.png" id="extra_left_i" style="display:none; position:absolute; left:0px; top:0px; z-index:911;" />
+		<img src="../textures/day/PA.png" id="pa_hud" style="display:none; position:absolute; left:-1.5px; top:-0.02px; z-index:950;" />
+		<div id="buttonbox">
+			<div class="button">
+			  <img src="../textures/day/siren_off.png" id="siren">
+			</div>		
+			<div class="button">
+			  <img src="../textures/day/horn_off.png" id="horn">
+			</div>		
+			<div class="button">
+			  <img src="../textures/day/tkd_off.png" id="tkd">
+			</div>	
+			<div class="button">
+			  <img src="../textures/day/lock_off.png" id="lock">
+			</div>
+		</div>
+		<div class="slide">
+		  <img src="../textures/day/slide_off.png" id="slide">
+		  <div>
+			<img src="../textures/day/ta_off.gif" id="ta" style="width: 128px; margin-left: 21px;margin-top: -4px;">
+		  </div>
+		</div>		
+	</div>
+	  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	  <script src="lvc.js" type="text/javascript"></script>
+	</body>
+</html>
