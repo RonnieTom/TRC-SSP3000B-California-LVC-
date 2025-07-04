@@ -9,6 +9,8 @@ LVC (Luxart Vehicle Control) is a highly customizable siren, emergency light, an
 
 ![e62fa92d237ad1b9bb5de2d20a2008a8](https://github.com/user-attachments/assets/3676c01e-f73a-446b-aa2c-79f0ef263478)
 
+YouTube https://youtu.be/WSVgbH0XMaM?si=Fi7dY5xK0YKBPahl
+
 
 ## 主要功能 | Main Features
 
@@ -18,7 +20,6 @@ LVC (Luxart Vehicle Control) is a highly customizable siren, emergency light, an
 - 支持每辆车自定义配件（extra1~extra4），HUD图片与动画联动
 - 配件激活/关闭时播放自定义音效
 - 配件HUD图片与主警灯轮播互斥显示，避免重叠
-- PA（AUX/PA）与主警笛可叠加显示，互不干扰
 - 完善的NUI消息机制，前后端状态同步
 - 高度可定制的UI与图片路径、动画间隔
 
