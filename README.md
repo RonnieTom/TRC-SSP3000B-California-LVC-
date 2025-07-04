@@ -9,7 +9,7 @@ LVC (Luxart Vehicle Control) is a highly customizable siren, emergency light, an
 
 ![e62fa92d237ad1b9bb5de2d20a2008a8](https://github.com/user-attachments/assets/3676c01e-f73a-446b-aa2c-79f0ef263478)
 
-YouTube https://youtu.be/WSVgbH0XMaM?si=Fi7dY5xK0YKBPahl
+YouTube [https://youtu.be/WSVgbH0XMaM?si=Fi7dY5xK0YKBPahl](https://youtu.be/WSVgbH0XMaM)
 
 
 ## 主要功能 | Main Features
