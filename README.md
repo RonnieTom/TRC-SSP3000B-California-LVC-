@@ -6,6 +6,7 @@ LVC（Luxart Vehicle Control）是一款专为FiveM平台设计的高自由度�
 
 LVC (Luxart Vehicle Control) is a highly customizable siren, emergency light, and vehicle accessory controller for FiveM, supporting advanced HUD, animation, sound, and independent/overlay siren states for all types of emergency vehicles.
 
+https://youtu.be/WSVgbH0XMaM?si=V93weNwRj1A7_qkO
 
 ![e62fa92d237ad1b9bb5de2d20a2008a8](https://github.com/user-attachments/assets/3676c01e-f73a-446b-aa2c-79f0ef263478)
 
